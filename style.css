@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Segoe UI, Arial, sans-serif;
+}
+
+.work img {
+  /* width: 10px; */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 50px;
+  font-weight: 600;
+}
+
+.container h1 {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.logo {
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  height: 700px;
+  background-color: black;
+  color: white;
+}
+
+.logo h1 {
+  margin-bottom: 90px;
+}
+
+.logo p {
+  padding: 20px;
+}
+
+.logo p:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+.about {
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  height: 700px;
+  background-color: #607d8b;
+  color: white;
+}
+
+.about .aimg img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.work {
+  background-color: #f1f1f1;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  height: 700px;
+}
+
+.work h1 {
+  margin-bottom: 0;
+}
+
+.work .wimg {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work .wimg img {
+  width: 50%;
+}
+
+.resume {
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  height: 700px;
+  background-color: #3f51b5;
+  color: white;
+}
+
+.resume .table {
+  display: flex;
+  /* border: 5px solid rgb(0, 0, 0); */
+  width: 100%;
+
+}
+
+.resume .table ul {
+  /* border: 5px solid rgb(24, 92, 47); */
+width: 100%;
+  list-style: none;
+  text-align: left;
+  /* display: none; */
+
+
+}
+
+.resume .table ul li {
+  height: 40px;
+  padding: 10px;
+  /* display: none; */
+  /* border: 5px solid rgb(42, 24, 92); */
+
+}
+
+.swing {
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  height: 700px;
+  background-color: #616161;
+  color: white;
+}
+
+.swing h1 {
+  margin-bottom: 200px;
+}
+
+.swing p {
+  font-size: 20px;
+}
+
+.contact {
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  height: 700px;
+  background-color: teal;
+  color: white;
+}
+
+.contact h1 {
+  margin-bottom: 0;
+}
+
+.contact .form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  margin: 30px;
+}
+
+.container input {
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+.container label {
+  text-align: left;
+  padding: 10px;
+}
+
+
+.container button {
+  background-color: teal;
+  border: none;
+  width: 100px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: black;
+  color: #ffff;
+  width: 100%;
+  padding: 40px;
+
+}
+
+@media all and (max-width:800px) {
+  .container{
+    margin: 0;
+  }
+  .container>* {
+  width: 100%;
+  }
+
+}
