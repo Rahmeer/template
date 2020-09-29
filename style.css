@@ -5,8 +5,11 @@ body {
   font-family: Segoe UI, Arial, sans-serif;
 }
 
-.work img {
-  /* width: 10px; */
+
+.content-container {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container {
@@ -36,6 +39,7 @@ body {
 
 .logo p {
   padding: 20px;
+  margin: 0;
 }
 
 .logo p:hover {
@@ -55,7 +59,15 @@ body {
 .about .aimg img {
   width: 50%;
   border-radius: 50%;
+  margin-bottom: 30px;
+
 }
+
+.about p {
+  text-align: start;
+  padding: 20px;
+}
+
 
 .work {
   background-color: #f1f1f1;
@@ -89,27 +101,24 @@ body {
 
 .resume .table {
   display: flex;
-  /* border: 5px solid rgb(0, 0, 0); */
   width: 100%;
-
+  
 }
 
 .resume .table ul {
-  /* border: 5px solid rgb(24, 92, 47); */
-width: 100%;
+  width: 100%;
   list-style: none;
   text-align: left;
+  padding: 0;
+  
   /* display: none; */
-
-
+  
+  
 }
 
 .resume .table ul li {
   height: 40px;
   padding: 10px;
-  /* display: none; */
-  /* border: 5px solid rgb(42, 24, 92); */
-
 }
 
 .swing {
@@ -140,7 +149,18 @@ width: 100%;
 
 .contact h1 {
   margin-bottom: 0;
+  text-align: start;
+  margin: 30px;
+
 }
+
+.contact p {
+  text-align: start;
+  opacity: 0.60;
+  margin: 30px;
+
+}
+
 
 .contact .form {
   display: flex;
@@ -169,6 +189,11 @@ width: 100%;
   width: 100px;
   padding: 10px;
   margin-top: 20px;
+  color: white;
+}
+
+.but {
+  text-align: end;
 }
 
 footer {
@@ -180,11 +205,12 @@ footer {
 }
 
 @media all and (max-width:800px) {
-  .container{
+  .container {
     margin: 0;
   }
+
   .container>* {
-  width: 100%;
+    width: 100%;
   }
 
 }
